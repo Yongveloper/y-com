@@ -1,7 +1,7 @@
-import styles from './page.module.css';
+import styles from '@/app/page.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
-import yLogo from '../../public/zLogo.png';
+import yLogo from '../../../public/zLogo.png';
 
 export default function Home() {
   return (
