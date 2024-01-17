@@ -1,5 +1,4 @@
-import styles from '@/app/page.module.css';
-
+import styles from '@/app/(beforeLogin)/_component/main.module.css';
 interface ILayoutProps {
   children: React.ReactNode;
   modal: React.ReactNode;
