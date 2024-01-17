@@ -1,11 +1,14 @@
+import styles from '@/app/(afterLogin)/layout.module.css';
+
 interface IAfterLoginLayoutProps {
   children: React.ReactNode;
 }
 
 export default function AfterLoginLayout({ children }: IAfterLoginLayoutProps) {
   return (
-    <div>
-      애프터 로그인 레이아웃
+    <div className={styles.container}>
+      <header className={styles.leftSectionWrapper}></header>
+      <div className={styles.rightSectionWrapper}></div>
       {children}
     </div>
   );
