@@ -1,4 +1,4 @@
-import SearchForm from '../_component/SerachForm';
+import SearchForm from '../_component/SearchForm';
 import style from './explore.module.css';
 
 import Trend from '@/app/(afterLogin)/_component/Trend';
