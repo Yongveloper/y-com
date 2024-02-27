@@ -15,7 +15,7 @@ export default function LoginModal() {
     e.preventDefault();
     setMessage('');
     try {
-      signIn('credentials', {
+      await signIn('credentials', {
         username: id,
         password,
         redirect: false,
